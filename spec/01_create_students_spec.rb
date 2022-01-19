@@ -1,5 +1,7 @@
 require_relative '../db/migrate/01_create_students'
 
+
+
 describe CreateStudents do
   before do
     sql = "DROP TABLE IF EXISTS students"
